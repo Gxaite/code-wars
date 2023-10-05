@@ -13,5 +13,16 @@ Worked Example
 # "+" against a "-" returns "0".
 # Return the string of characters.'''
 
-
+def neutralise(s1, s2):
+    result_list = ""
+    i=0
+    while i< len(s1):
+        
+        if s1[i]!=s2[i]:
+            result_list += "0"
+        else:
+            result_list+= str(s1[i])
+        i +=1
+        
+    return result_list
 
