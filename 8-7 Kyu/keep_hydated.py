@@ -16,4 +16,5 @@ time = 11.8--> litres = 5
 
 '''
 def litres(time):
+    
     return time // 2
